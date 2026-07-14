@@ -28,7 +28,7 @@ Time Complexity tells us how the running time of an algorithm increases as the i
 
 Example 1
 
-Suppose you have
+.Suppose you have
 
 10 numbers
 
@@ -36,7 +36,7 @@ Searching one by one takes
 
 10 operations
 
-Now imagine
+.Now imagine
 
 100 numbers
 
@@ -44,7 +44,7 @@ Searching one by one may take
 
 100 operations
 
-Now
+.Now
 
 1000 numbers
 
@@ -52,10 +52,60 @@ Searching may take
 
 1000 operations
 
-As the input increases,
+.As the input increases,
 
 operations also increase.
 
 This growth is called Time Complexity.
+
+
+
+.What is Big O Notation?
+
+Big O is simply a way to write Time Complexity.
+{
+O(1)
+
+O(log n)
+
+O(n)
+
+O(n log n)
+
+O(n²)
+
+O(2ⁿ)
+
+O(n!)
+}
+
+Here n is the size of the input. 
+
+1. O(1) — Constant Time
+ This is the fastest.
+
+No matter how big the input becomes,
+
+the work remains the same.
+
+  Example: 
+  
+int[] arr = {5,8,2,9};
+
+System.out.println(arr[2]);
+Whether the array has   
+
+4 elements
+
+400 elements
+
+400000 elements
+
+Finding
+
+arr[2]
+
+always takes one direct access.
+hence O(1)
 
 
