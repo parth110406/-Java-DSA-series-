@@ -93,6 +93,7 @@ the work remains the same.
 int[] arr = {5,8,2,9};
 
 System.out.println(arr[2]);
+
 Whether the array has   
 
 4 elements
