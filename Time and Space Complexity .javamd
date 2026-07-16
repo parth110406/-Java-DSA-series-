@@ -90,9 +90,11 @@ the work remains the same.
 
   Example: 
   
+```java
 int[] arr = {5,8,2,9};
 
 System.out.println(arr[2]);
+```
 
 Whether the array has   
 
@@ -108,5 +110,4 @@ arr[2]
 
 always takes one direct access.
 hence O(1)
-
 
