@@ -111,3 +111,8 @@ arr[2]
 always takes one direct access.
 hence O(1)
 
+Real-life example
+
+You know your friend's phone number is saved at position 25 in your contacts. You open it directly instead of checking every contact one by one.
+
+
