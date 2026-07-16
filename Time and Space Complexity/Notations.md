@@ -211,6 +211,13 @@ This is considered very efficient for sorting large datasets.
 |    **O(n!)**    | Factorial Time    |     ❌ Worst    |      Explodes extremely fast     | Generating All Permutations, Brute Force TSP      |         ⭐        |
 
 
+> **Rule to Remember**
+>
+> The smaller the Time Complexity, the faster and more scalable the algorithm.
+>
+> O(1) > O(log n) > O(n) > O(n log n) > O(n²) > O(2ⁿ) > O(n!)
+
+
 
 
 
