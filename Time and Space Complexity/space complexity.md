@@ -44,3 +44,21 @@ Space Complexity => O(1)
 🏠 Real-Life Example
 You have one notebook.
 Whether you solve 10 questions or 1000 questions, you still use the same notebook.
+
+
+📌 Example 3 – O(n²) Space
+```java
+int[][] matrix = new int[n][n];
+```
+Explanation
+
+A 2D array of size n × n is created.
+If:
+n = 5 → 25 cells
+n = 100 → 10,000 cells
+Memory grows much faster.
+
+Space Complexity=>O(n²)
+
+🏠 Real-Life Example
+A classroom where every student gets an entire row and column of seats.
